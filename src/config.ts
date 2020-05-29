@@ -12,7 +12,7 @@
 const config = {
 
   //Url to node open for RPC, defaults to default localhost port
-  rpcUrl: "http://localhost:8545",
+  rpcUrl: "http://localhost:8006",
 
   //number of transactions to generate and throw
   numTransactions: "5",
@@ -36,7 +36,7 @@ const config = {
   maxGas: "210000",
 
   //chainId, currently 1337 for kensignton testnet
-  chainId: 1337,
+  chainId: 6,
 
 };
 
