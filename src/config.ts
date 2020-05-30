@@ -12,10 +12,10 @@
 const config = {
 
   //Url to node open for RPC, defaults to default localhost port
-  rpcUrl: "http://localhost:8006",
+  rpcUrl: "http://localhost:8063",
 
   //number of transactions to generate and throw
-  numTransactions: "5",
+  numTransactions: "25",
 
   //number of wallets that will be created to throw/recieve transactions
   numWallets: "5",
@@ -27,16 +27,16 @@ const config = {
   testEdgecases: true,
 
   //value (in wei) to send in each transation
-  amount: "10",    
+  amount: "1",    
 
   //gas price in gwei for each transaction generated
-  gasPrice: "40",
+  gasPrice: "10",
 
   //max gas to set for each transaction generated
   maxGas: "210000",
 
   //chainId, currently 1337 for kensignton testnet
-  chainId: 6,
+  chainId: 63,
 
 };
 
